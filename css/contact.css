@@ -1,0 +1,108 @@
+body {
+    background-image: url(../image/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    text-align: center;
+    padding-top: 20px;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin: 20px;
+    font-size: 30px;
+}
+
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(92, 58, 58);
+}
+
+.row {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 700px 800px;
+
+}
+
+.column-left {
+    margin: 10px 60px ;
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: white;
+}
+
+::placeholder {
+    font-family: 'Gloock', serif;
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+}
+
+.info {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.info1 {
+    margin: 10px;
+
+}
+
+input {
+    margin-top: 9px;
+    margin-bottom: 9px;
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(37, 37, 37);
+
+}
+
+label {
+    font-size: 33px;
+    color: white;
+}
+
+#text {
+    height: 100px;
+
+}
+
+
+.click {
+    font-size: 20px;
+}
+
+.column-right {
+    margin: 10px 100px;
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.5);
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+
+}
+
+.cc {
+    color: white;
+    text-align: center;
+    font-family: 'Gloock', serif;
+    font-size: 33px;
+    margin-top: 50px;
+}
