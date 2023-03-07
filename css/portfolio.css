@@ -1,5 +1,7 @@
 body {
-    background-color: rgb(27, 26, 26);
+ 
+    background: linear-gradient(to bottom, hsla(1deg 100% 10%) 0%, hsl(0, 0%, 0%) 70%);  
+
 }
 
 nav ul {
@@ -20,6 +22,23 @@ nav a {
 }
 
 nav a:hover {
-    color: rgb(99, 55, 55);
+    color: rgb(0, 0, 0);
+
 }
 
+img{
+    width: 95%;
+    padding:5px 12px;
+}
+
+.pictures{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    margin: 50px 100px 10px 100px;
+
+}
+
+img:hover {
+    transform: scale(0.95);
+    transition: transform 4s;
+  }
