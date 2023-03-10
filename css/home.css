@@ -64,7 +64,16 @@ nav a:hover {
     width: 400px;
 }
 
-@media  only screen and (max-width:800px) {
-    
-    
+@media only screen and (max-width:800px){
+    ul{display: inline-flex}
+}
+
+@media only screen and (max-width:320px){
+    ul{display: inline-flex; margin-left: 60px;}
+    .name{font-size: 40px; margin-left: 20px;}
+    .bio p{font-size: 30px; margin:30px 0 0 20px;}
+    .intro{display: block;}
+    .aboutme .aboutme1{margin-left: 20px;}
+    .pic1{margin-left:145px;}
+
 }

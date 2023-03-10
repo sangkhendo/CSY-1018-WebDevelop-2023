@@ -1,5 +1,5 @@
-body {
-    background-color: rgb(0, 0, 0);
+body{
+    background: linear-gradient(to bottom, rgb(46, 5, 4) 0%, hsl(0, 0%, 0%) 100%);
 }
 
 * {
@@ -32,3 +32,43 @@ nav a:hover {
     color: rgb(214, 10, 10);
 }
 
+.sub{
+    color: white;
+    margin: 30px 50px 0 50px;
+}
+
+.validation{
+    color: white;
+    margin: 30px 50px 0 50px;
+}
+
+
+.heading {
+    text-align: center;
+    font-size: 60px;
+}
+
+.text{
+    margin:20px 0;
+}
+
+ .text1{
+    font-size: x-large;
+    margin: 10px 0;
+    text-align: justify;
+ }
+ h3{
+    font-size: 32px;
+ }
+
+ h4{
+    font-size: 50px;
+    margin: 10px 0;
+ }
+
+ img{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
