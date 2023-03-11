@@ -77,3 +77,12 @@ nav a:hover {
 .list {
     margin: 10px;
 }
+
+@media only screen and (max-width:650px){
+    .head1{grid-template-columns: auto;}
+}
+
+@media only screen and (max-width:450px){
+    .head1{grid-template-columns: auto;}
+    .unordered{font-size: 27px;}
+}

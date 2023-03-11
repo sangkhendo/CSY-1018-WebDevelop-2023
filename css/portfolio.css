@@ -42,3 +42,8 @@ img:hover {
     transform: scale(0.95);
     transition: transform 4s;
   }
+  @media only screen and (max-width:710px){
+    nav li{margin: 8px; font-size: 25px;}
+    .pictures{margin:auto; height: 775px;}
+  }
+
