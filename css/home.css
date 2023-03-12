@@ -72,7 +72,7 @@ nav a:hover {
 }
 
 @media only screen and (max-width:450px){
-    nav li{font-size: 12px;}
+    nav li{margin: 10px; font-size: 16px;}
     .name{font-size: 38px; margin-left: 20px;}
     .bio p{font-size: 30px; margin:30px 0 0 20px;}
     .intro{display: block;}

@@ -47,3 +47,6 @@ img:hover {
     .pictures{margin:auto; height: 775px;}
   }
 
+  @media only screen and (max-width:450px){
+    nav li{margin: 10px; font-size: 16px;}
+  }
