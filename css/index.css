@@ -16,7 +16,7 @@ nav ul {
 }
 
 nav li {
-    display: inline;
+    display: inline-flex;
     list-style-type: none;
     margin: 20px;
     font-size: 30px;
@@ -30,7 +30,16 @@ nav a {
 
 nav a:hover {
     color: rgb(214, 10, 10);
+
 }
+
+span{
+    color: white;
+}
+span.material-symbols-outlined{
+    display: none;
+}
+    
 
 .intro {
     margin-top: 200px;
@@ -72,6 +81,8 @@ nav a:hover {
 }
 
 @media only screen and (max-width:450px){
+    nav{display: flex; align-items: center; justify-content: space-between;}
+    span.material-symbols-outlined{display: block;}
     nav li{margin: 10px; font-size: 16px;}
     .name{font-size: 38px; margin-left: 20px;}
     .bio p{font-size: 30px; margin:30px 0 0 20px;}

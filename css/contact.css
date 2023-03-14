@@ -30,6 +30,17 @@ nav a:hover {
     color: rgb(214, 10, 10);
 }
 
+span{
+    color: white;
+}
+material-symbols-outlined{
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48}
+
+
 .information {
     margin-top: 50px;
 }
@@ -86,6 +97,8 @@ footer p{
     font-size: 20px;
 }
  @media only screen and (max-width:450px){
+    nav{display: flex; align-items: center; justify-content: space-between;}
+    span.material-symbols-outlined{display: block;}
     nav li{margin: 10px; font-size: 16px;}
     .information1{margin: 10px 20px 10px 20px;}
     footer{line-height: 40px;text-align: justify;}
